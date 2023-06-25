@@ -53,6 +53,7 @@ table {
 header{
 	background-image: url("https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1161&q=80");
 margin-bottom: 20px;
+position: relative;
 }
 
 
@@ -71,13 +72,19 @@ body{
 .search__section{
 
  padding: 10px;
- position:relative;  
+ position:absolute;  
  margin-left: 75%;
 }
 
 .robert{
-display: flex;
-justify-content: right;
+	display: flex;
+	justify-content: right;
+	position: absolute;
+	top: 30%; 
+	left: 40%;
+	border-radius: 25px;
+	background: #ffffff;
+	padding: 10px;
 }
 
 .informationbtn {
@@ -120,4 +127,9 @@ justify-content: right;
   
   .information:hover .informationbtn {
 	background-color: #3e8e41;
+  }
+
+  #TitluDePresa{
+	color: #1e7786 ;
+	font-size: 35px;
   }
