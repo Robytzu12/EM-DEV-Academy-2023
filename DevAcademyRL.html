@@ -1,29 +1,64 @@
 <!DOCTYPE html>
 <html lang="ro-RO">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/Style.css">
     </head>
         <body>
-            <header>    
+            <header>
+                <form>
+                    <div class="search__section">
+                        <span class="search__icon"> <img width="20" height="20" src="IMG/search icon.png"/></span>
+                        <input type="text" id="search__input" placeholder="Search" maxlength="30" method="POST">
+                        <input type="Submit" id="search_input" value="Submit">
+                    </div>
+                </form>
+                    <div class="language__selector">
+                        <select>
+                            <option>RO</option>
+                            <option>EN</option>
+                        </select>
+                    </div>
+                <div class="logo">
                 <h1 title="Delta Vacaresti Logo">
-                    <a href="#">
+                    <a class="logo" href="#">
                     <img width="100" height="100" src="img/Delta Vacaresti Logo.png"/>
                     </a>
+                </div>  
                 </h1>                                
-                <form>
-                    <img width="20" height="20" src="IMG/search icon.png"/>
-                    <input type="text" id="search-input" placeholder="Search" maxlength="30" method="POST">
-                    <input type="Submit" value="Submit">
-                </form>
-                <select>
-                    <option>RO</option>
-                    <option>EN</option>
-                </select>
-                <nav>
-                    <a href="#">Descopera parcurile</a>
-                    <a href="#">Info Municipalitate</a>
-                    <a href="#">Alatura-te retelei</a>
-                   <a href="#">Articole de presa</a>
+                <section class="robert">
+                    <div class="information">
+                        <button class="informationbtn">Descopera parcurile ▼</button>
+                            <div class="information-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                      </div>
+                    <div class="information">
+                        <button class="informationbtn">Info Municipalitate ▼</button>
+                            <div class="information-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                    </div>
+                    <div class="information">
+                        <button class="informationbtn">Descopera parcurile ▼</button>
+                            <div class="information-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            </div>
+                    </div>
+                    <div class="information">
+                        <button class="informationbtn">Articole de presa ▼</button>
+                            <div class="information-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                    </div>
                 </nav>
             </header>
                     <a href="#"> Acasa</a> >
@@ -116,5 +151,5 @@
                             <a href="#">Privacy policy</a>
                             <a href="#">Cookies</a>
                         </section>
-        </body>
+                </body>
 </html>
