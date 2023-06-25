@@ -46,3 +46,78 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*------------------------My coding --------------------*/
+
+header{
+	background-image: url("https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1161&q=80");
+margin-bottom: 20px;
+}
+
+
+body{
+	overflow-x: auto;
+}
+
+.search__icon{
+	vertical-align:bottom;
+	background-color: transparent;
+}
+
+#search__input{
+	vertical-align: top;
+}
+.search__section{
+
+ padding: 10px;
+ position:relative;  
+ margin-left: 75%;
+}
+
+.robert{
+display: flex;
+justify-content: right;
+}
+
+.informationbtn {
+	background-color:#ffffff;
+	color: #82ae94;
+	padding: 15px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .information {
+	position: relative;
+	display: inline-block;
+	flex-direction: right;
+
+  }
+  
+  .information-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .information-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .information-content a:hover {background-color: #f1f1f1}
+  
+  .information:hover .information-content {
+	display: block;
+  }
+  
+  .information:hover .informationbtn {
+	background-color: #3e8e41;
+  }
