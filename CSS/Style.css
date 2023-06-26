@@ -52,13 +52,14 @@ table {
 
 header{
 	background-image: url("https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1161&q=80");
-margin-bottom: 20px;
+margin-bottom: 50px;
 position: relative;
 }
 
 
 body{
 	overflow-x: auto;
+	max-width: 1500px;
 }
 
 .search__icon{
@@ -76,7 +77,7 @@ body{
  margin-left: 75%;
 }
 
-.robert{
+.info__bar{
 	display: flex;
 	justify-content: right;
 	position: absolute;
@@ -87,7 +88,7 @@ body{
 	padding: 10px;
 }
 
-.informationbtn {
+.information__btn {
 	background-color:#ffffff;
 	color: #82ae94;
 	padding: 15px;
@@ -125,11 +126,44 @@ body{
 	display: block;
   }
   
-  .information:hover .informationbtn {
+  .information:hover .information__btn {
 	background-color: #3e8e41;
   }
 
-  #TitluDePresa{
+  #pressTitle{
 	color: #1e7786 ;
 	font-size: 35px;
+	margin-left: 50px;
   }
+
+  .info__box{
+	background-color: #ffffff;
+	max-width: 1300px;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+
+  .Subtitle{
+	color:   #0e3d45;
+	font-size: 25px;
+	margin-left: 30px;
+	padding: 20px;
+  }
+
+.image__container{
+	position: relative;
+	width:	fit-content;
+	height: 100%;
+}
+
+.sharing__method{
+	position:absolute;
+	margin-left: 75%;
+	margin-bottom: 1500px;
+	border-radius: 25px;
+	background: rgb(127,172,146);
+	background: linear-gradient(90deg, rgba(127,172,146,1) 0%, rgba(251,178,101,1) 100%);
+}
