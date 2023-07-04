@@ -76,7 +76,7 @@ body{
 	border-top: orange 5px solid;
 }
 
-.information__btn {
+.information__nav__btn {
 	background-color:#ffffff;
 	color: #82ae94;
 	padding: 20px 20px 20px 30px;
@@ -85,7 +85,7 @@ body{
 	cursor: pointer;
   }
   
-  .information {
+  .information__nav {
 	position: relative;
 	display: inline-block;
 	flex-direction: right;
@@ -109,11 +109,11 @@ body{
   
   .information-content a:hover {background-color: #f1f1f1}
   
-  .information:hover .information__content {
+  .information__nav:hover .information__content {
 	display: block;
   }
   
-  .information:hover .information__btn {
+  .information__nav:hover .information__nav__btn {
 	background-color: #3e8e41;
   }
   
@@ -132,10 +132,6 @@ body{
 	background-color: #f9f9f9;
 	width: 1150px;
 	margin: 0 auto;
-	display: flex;
-	align-items: flex-start;
-	flex-direction: column;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   
   .Subtitle{
@@ -185,12 +181,12 @@ body{
 	max-height: 50%;
 	overflow: visible;
 	margin-left: 30px;
+	font-size: 16px;
 }
 
 .content__info{
 	text-align: left;
 	color: #0E3D45;
-	font: normal normal normal 16px/21px Roboto;
 }
 
 .video__container{
@@ -212,22 +208,22 @@ body{
 	z-index: 2; 
 }
 
-	.container__test {
+	.container__article {
 		display: block;
 		align-items: flex-start;
 	}
 
-	.item__test {
+	.item__article {
 		display: flex;
 		align-items: flex-start;
 		margin-bottom: 20px;
 	}
 
-	.image__Test {
+	.image__article {
 		margin-right: 10px;
 	}
 
-	.text__test {
+	.text__article {
 		text-align: left;
 		overflow: visible;
 		max-width: 50%;
@@ -237,3 +233,113 @@ body{
 	.articles{
 		display: flex;
 	}
+
+	.report_box{
+		position: relative;
+		border: 1px solid #ddd;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		background-image: url(../IMG/Report\ Problem.png);
+		background-size: cover;
+		height: 600px;
+	}
+
+	.report__info{
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		top: 500px;
+		left: 20%;
+	}
+
+	.information__rep{
+		margin-right: 400px;
+	}
+	
+	.Report__information{
+		font-size: 30px;
+		color: #ffffff;
+	}
+
+	.Short__description{
+		font-size: 16px;
+	}
+
+	.information__btn{
+		display: flex;
+		justify-content: center;
+		border-radius: 10px;
+		border: 3px solid #ffffff;
+		background: rgb(127,172,146);
+		background: linear-gradient(90deg, rgba(127,172,146,1) 0%, rgba(251,178,101,1) 100%);
+		height: 50px;
+		width: 200px;
+		padding: 0 15px;
+		align-items: center;
+	}
+
+	.information__btn a{
+		text-transform: uppercase;
+		font-size: 16px;
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.hedhegog_image{
+		position: absolute;
+		top: 75%;
+		left: 60%;
+		transform: scaleX(-1);
+	}
+
+	#footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f2f2f2;
+        padding: 20px;
+        color: #9dbfab;
+        font-family: Arial, sans-serif;
+      }
+
+	.footer1{
+		display: flex;
+		flex-direction: column;
+		width: 500px;
+		margin-left: 50px;
+	}
+	
+	#logo{
+		margin: 50px 0;
+	}
+
+	.footer2{
+		display: flex;
+		flex-direction: row;
+	}
+
+	footer section label {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      footer section button {
+        padding: 8px 16px;
+        background-color: #3366cc;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      footer section form {
+    
+      }
+  
+      footer section input[type="email"] {
+        width: 250px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 12px;
+		margin-bottom: 10px;
+      }
