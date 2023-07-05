@@ -155,17 +155,6 @@
                 <section id="logo">
                     <a href="#"> <img width="100" height="100" src="img/Delta Vacaresti Logo.png" class="logo__image"/></a>
                     </section>
-                <section id="Subscribe">
-                        <label>SUBSCRIBE TO NEWSLETTER</label>
-                        <img width="50" height="50" src="IMG/newsletter.png" class="newsletter">
-                            <p>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
-                                <form id="email__address__form">
-                                    <input type="email" id="email__address" value="Enter your email here..."/>
-                                </form>
-                        <button title="Subscribe button">Subscribe</button>
-                </section>
-            </div>
-                <div class="footer2">
                     <section id="info">
                         <label>INFO</label>
                         <li><a href="#">News</li></a>
@@ -175,13 +164,27 @@
                     </section>
                     <section id="contact">
                         <label>Contact</label>
-                        (1800) 456 7890<br>
-                        65, Street, New Youk, MAC 5245<br>
-                        enorment@contact.gmail.com<br>
+                        <li class="location"><img width="20" height="20" src="IMG/location.png" class="location__btn">
+                            <p>Calea Vitan nr. 40, Sector 4, Bucuresti</p></li>
+                        <li class="phone"><img width="20" height="20" src="IMG/Phone.png" class="phone_btn">
+                            <p>+40 701 000 000</p></li>
+                        <li class="address"><img width="20" height="20" src="IMG/time icon.png" class="address">
+                            <p> contact@everymatrix.com</p></li>
                     </section>
+            </div>
+                <div class="footer2">
+                    <section id="Subscribe">
+                        <label>SUBSCRIBE TO NEWSLETTER</label>
+                        <img width="70" height="60" src="IMG/newsletter.png" class="newsletter">
+                            <p class="subscribe__newsletter">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
+                                <form id="email__address__form">
+                                    <input type="email" id="email__address" placeholder="Enter your email here..." maxlength="30"/>
+                                    <a href="#"><img width="10" height="10" src="IMG/subscribe arrow.png" class="subscribe__arrow"></a>
+                                </form>
+                </section>
                     <section id="Media">
                         <label>Social Media</label>
-                        <a href="#"><img src="IMG/facebook logo.png" width="50" height="50"></a>
+                        <div class="fb-page" data-href="https://www.facebook.com/parculnaturalvacaresti/" data-tabs="like, share" data-width="400" data-height="130" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/parculnaturalvacaresti/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/parculnaturalvacaresti/">Parcul Natural Văcărești</a></blockquote></div>
                     </section>
                <!-- </div>
                     <a href="#top">
@@ -196,4 +199,6 @@
                         -->
             </footer>
         </body>
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ro_RO/sdk.js#xfbml=1&version=v17.0" nonce="uF4MBwkF"></script>
 </html>
