@@ -162,6 +162,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 		text-transform: uppercase;
 		color: #ffffff;
 	}
+
   
 	.author__section{
 		color: #64a1ac;
@@ -251,7 +252,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 		display: flex;
 		justify-content: center;
 		position: absolute;
-		top: 450px;
+		top: 470px;
 		left: 20%;
 	}
 
@@ -383,7 +384,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 	  .subscribe__arrow{
 		position: absolute;
 		top: 61%;
-		right: 57%;
+		right: 59%;
 		padding: 19px;
 	  }
 
@@ -414,4 +415,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 	  .fb-page{
 		margin-top: 20px;
+	  }
+
+	  .regulatoryItems{
+		max-width: 1300px;
+		margin: 100px 0 100px 90px;
+		display: flex;
+		gap: 10px;
+		  }
+
+	  .regulatoryItems a:first-child{
+		margin-right: 600px;
+	  }
+
+	  .regulatoryItems a{
+		color: #7FAC92;
+		padding: 5px 0;
+		text-decoration: none;		
 	  }
